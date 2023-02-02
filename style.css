@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+.main{
+   display: grid;
+   place-items: center;
+   position: relative;
+   top: 100px;
+   padding: 20px;
+}
+
+/* As per the Assignment Note i used background, width, height, display, position, and flex properties */
+
+.insta{
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 10%, #fd5949 35%, #d6249f 60%, #285aeb 90%);
+    border-radius: 65px;
+    position: relative;
+    /* display: grid;
+    place-items: center; we can use this also*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    width: 280px;
+    height: 280px;
+    background-color: transparent;
+    border: 20px solid #fff;
+    border-radius: 60px;
+    position: absolute;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    position: absolute;
+    border: 20px solid #fff;
+    border-radius: 50%;
+}
+.small-circle{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 44px;
+    right: 48px;
+}
